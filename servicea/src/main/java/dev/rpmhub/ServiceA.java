@@ -37,5 +37,4 @@ public class ServiceA {
     public Person getPerson(@PathParam("name") String name){
         return serviceB.getPerson(name);
     }
-
 }
